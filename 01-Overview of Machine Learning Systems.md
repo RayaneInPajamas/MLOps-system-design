@@ -97,17 +97,10 @@ Is helpful to design & develop them
 ### Machine Learning in Research Versus in Production
 
 |                | Research                | Production                  |
-|----------------|-------------------------|-----------------------------|
-| Requirements   | State-of-the-art model  | Different stakeholders have |
-|                | performance on benchmark | different requirements      |
-|----------------|-------------------------|-----------------------------|
-| Computational  | Fast training, high      | Fast inference, low latency |
-| priority       | throughput               |                             |
-|----------------|-------------------------|-----------------------------|
+| Requirements   | State-of-the-art model performance on benchmark  | Different stakeholders have different requirements |
+| Computational priority| Fast training, high    throughput  | Fast inference, low latency |     
 | Data           | Static                  | Constantly shifting         |
-|----------------|-------------------------|-----------------------------|
 | Fairness       | Often not a focus       | Must be considered          |
-|----------------|-------------------------|-----------------------------|
 | Interpretability | Often not a focus     | Must be considered          |
 |----------------|-------------------------|-----------------------------|
 
