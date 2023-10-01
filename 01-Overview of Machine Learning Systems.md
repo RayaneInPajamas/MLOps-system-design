@@ -96,20 +96,21 @@ On the other hand,latency of a second might get a consumer distracted and openin
 Is helpful to design & develop them 
 ### Machine Learning in Research Versus in Production
 
-|                |Research                |Production                 |
------------------------------------------------------------------------
-|Requirements    |State-of-the-art model  |Different stakeholders have|
-|                |performance on benchmark|different requirements     |
------------------------------------------------------------------------
-|Computational   |Fast training, high     |Fast inference, low latency|
-|priority        |throughput              |                           |
------------------------------------------------------------------------
-|Data            |static                  |Constantly shifting        |
------------------------------------------------------------------------
-|Fairness        |Often not a focus       |Must be considered         |
------------------------------------------------------------------------
-|Interpretability| Often not a focus      |Must be considered         |
------------------------------------------------------------------------
+|                | Research                | Production                  |
+|----------------|-------------------------|-----------------------------|
+| Requirements   | State-of-the-art model  | Different stakeholders have |
+|                | performance on benchmark | different requirements      |
+|----------------|-------------------------|-----------------------------|
+| Computational  | Fast training, high      | Fast inference, low latency |
+| priority       | throughput               |                             |
+|----------------|-------------------------|-----------------------------|
+| Data           | Static                  | Constantly shifting         |
+|----------------|-------------------------|-----------------------------|
+| Fairness       | Often not a focus       | Must be considered          |
+|----------------|-------------------------|-----------------------------|
+| Interpretability | Often not a focus     | Must be considered          |
+|----------------|-------------------------|-----------------------------|
+
 
 *ML Fairness* is the model's quality or state of being fair or impartial, and it relates to the harm of allocation and quality of services
 
