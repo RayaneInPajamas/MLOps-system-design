@@ -102,7 +102,6 @@ Is helpful to design & develop them
 | Data           | Static                  | Constantly shifting         |
 | Fairness       | Often not a focus       | Must be considered          |
 | Interpretability | Often not a focus     | Must be considered          |
-|----------------|-------------------------|-----------------------------|
 
 
 *ML Fairness* is the model's quality or state of being fair or impartial, and it relates to the harm of allocation and quality of services
