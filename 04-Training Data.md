@@ -117,7 +117,8 @@ If data-level methods mitigate the challenge of class imbalance by altering the 
 - used for tasks that have limited training data, such as in medical imaging.
 
 ### Simple Label-Preserving Transformations
-
+"Label-Preserving Transformations" refer to techniques that modify the input data while keeping the target labels (classifications) of the data samples unchanged
 ### Perturbation
-
+Perturbation generally refers to introducing small, controlled changes or disturbances to a system or dataset.
 ### Data Synthesis
+Data synthesis is the process of generating new data points or samples based on existing data.
