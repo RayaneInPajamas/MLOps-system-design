@@ -170,7 +170,9 @@ Why Good Feature Engineering Matters?
 - Often, a small number of features are responsible for a large portion of a model's feature importance
 <img src="05-Feature Engineering/10.png">
 <img src="05-Feature Engineering/11.png">
+
 ### Feature Generalization
+
 - Features should generalize well to unseen data, as the goal of machine learning is to make accurate predictions on new data.
 - Consider two aspects of generalization: feature coverage and distribution of feature values.
 - Coverage is the percentage of samples with values for a feature. Features with very low coverage might not be useful.
