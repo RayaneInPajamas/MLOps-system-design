@@ -164,6 +164,7 @@ Why Good Feature Engineering Matters?
 ## Evaluating Feature Quality:
 
 ### Feature Importance
+
 - Use methods like XGBoost's feature importance or SHAP (SHapley Additive exPlanations) to measure how much a feature contributes to a model's performance.
 - Feature importance can help in choosing the right features and understanding model behavior.
 - Often, a small number of features are responsible for a large portion of a model's feature importance
